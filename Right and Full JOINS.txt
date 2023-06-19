@@ -4,11 +4,11 @@ create table Student(Rollno int,name varchar(10),Address(20),Age int);
 
 // Displaying Student
 
-Rollno   name	Address	Age	
-1	   arun	delhi		18
-2        vijay	bihar		19
-3        tharun	chennai	20
-4        siva	punjab	18
+Rollno   name	  Address	  Age	
+1	       arun  	delhi		  18
+2        vijay	bihar		  19
+3        tharun	chennai  	20
+4        siva  	punjab	  18
 
 
 // Creating a Table Studentcourse
