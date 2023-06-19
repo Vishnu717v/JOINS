@@ -1,0 +1,29 @@
+//Query for INNER JOIN
+
+ SELECT Student.id,Student.Name
+FROM Student
+INNER JOIN College
+ON Student.Id = College.CollegeID;
+
+// Output
+
+Id	Name
+1	Vishnu
+2	Tharun
+3	Sivaguru
+
+
+//Query for LEFT JOIN
+
+SELECT Student.Id,Student.Dep,College.location
+FROM Student
+left JOIN College
+ON Student.ID = College.collegename;
+
+// Output
+
+Id	Dep	location
+1	CSE	
+2	CSE	
+3	CSE	
+4	CSE	

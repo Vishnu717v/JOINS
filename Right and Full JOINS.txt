@@ -1,0 +1,58 @@
+// Creating a Table Student
+
+create table Student(Rollno int,name varchar(10),Address(20),Age int);
+
+// Displaying Student
+
+Rollno   name	Address	Age	
+1	   arun	delhi		18
+2        vijay	bihar		19
+3        tharun	chennai	20
+4        siva	punjab	18
+
+
+// Creating a Table Studentcourse
+
+create table StudentCourse(courseid int,Rollno int);
+
+// Displaying table Student course
+
+courseid	rollno
+1		1
+2		2
+2		3
+3		4
+
+
+// RIGHT JOIN
+
+SELECT Student.NAME,Studentcourse.courseid
+FROM Student
+RIGHT JOIN Studentcourse 
+ON Studentcourse.Rollno = Student.Rollno;
+
+// OUTPUT
+
+name		courseid
+arun		1
+vijay		2
+tharun	2
+siva		3
+
+
+// FULL JOINS
+
+SELECT Student.name,Studentcourse.courseid 
+FROM Student
+FULL JOIN Studentcourse 
+ON Studentcourse.Rollno = Student.Rollno;
+
+// OUTPUT
+
+name		courseid
+arun		1
+vijay		2
+tharun	2
+siva		3
+
+

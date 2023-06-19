@@ -1,0 +1,34 @@
+// CRAETING TABLE:student
+create table student(Id int,Name varchar(20),Dep varchar(20));
+
+// Inserting Values
+insert into student values(1,"Vishnu","CSE");
+insert into student values(2,"Tharun","CSE");
+insert into student values(3,"Sivaguru","CSE");
+insert into student values(4,"Vijay","CSE");
+
+// Displaying the Table student
+select * from student;
+
+Id	Name	      Dep
+1	Vishnu	CSE
+2	Tharun	CSE
+3	Sivaguru	CSE
+4	Vijay	      CSE
+
+//CREATING TABLE:College
+create table college(collegename varchar(20),location varchar(20),CollegeId int);
+
+// Inserting values
+
+INSERT INTO College values("Sri Eshwar","kinathukukadavu","1");
+INSERT INTO College values("krishna","coimbatore","2");
+INSERT INTO College values("hindustan","coimbatore","3");
+
+// Displaying the Table College
+select * from College;
+
+collegename	location		CollegeID
+Sri Eshwar	kinathukukadavu	1
+krishna	coimbatore		2
+hindustan	coimbatore		3
