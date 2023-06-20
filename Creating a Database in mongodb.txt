@@ -1,0 +1,66 @@
+// creating a Database in mongodb
+{
+  "_id": {
+    "$oid": "64917c45cdaad517838e0aaf"
+  },
+  "name": "SWIFT",
+  "model": "DTS",
+  "rented_user_count": "1",
+  "milege": "15",
+  "transmission": "AUTOMATIC",
+  "rent": "1000",
+  "fuel": "PETROL",
+  "image_url": "https://adgcyhiguyff.com"
+}
+{
+  "_id": {
+    "$oid": "6491814ecdaad517838e0ab0"
+  },
+  "name": "honda",
+  "model": "city",
+  "rented_user_count": "2",
+  "milege": "20",
+  "transmission": "AUTOMATIC",
+  "rent": "2000",
+  "fuel": "DIESEL",
+  "image_url": "https://sccbucbdscb.com"
+}
+{
+  "_id": {
+    "$oid": "6491814ecdaad517838e0ab1"
+  },
+  "name": "Audi",
+  "model": "gt",
+  "rented_user_count": "3",
+  "milege": "22",
+  "transmission": "MANUAL",
+  "rent": "1500",
+  "fuel": "PETROL",
+  "image_url": "https://uhnefownladhd.com"
+}
+{
+  "_id": {
+    "$oid": "6491814ecdaad517838e0ab2"
+  },
+  "name": "benz",
+  "model": "gt",
+  "rented_user_count": "4",
+  "milege": "13",
+  "transmission": "AUTOMATED",
+  "rent": "1300",
+  "fuel": "PETROL",
+  "image_url": "cbaucvbiauf.com"
+}
+{
+  "_id": {
+    "$oid": "6491814ecdaad517838e0ab3"
+  },
+  "name": "supra",
+  "model": "dts",
+  "rented_user_count": "5",
+  "milege": "16",
+  "transmission": "AUTOMATED",
+  "rent": "1700",
+  "fuel": "DIESEL",
+  "image_url": "asvccocnciws.com"
+}
